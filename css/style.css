@@ -21,7 +21,7 @@ main {
 }
 
 .hero-section {
-  height: 80vh;
+  height: 90vh;
   padding: 0 230px;
   display: flex;
   justify-content: flex-end;
@@ -30,7 +30,7 @@ main {
   background-image: url(../images/banner/banner3.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .hero-section {
@@ -116,4 +116,31 @@ main {
   color: #737272;
   font-size: 25px;
   font-weight: 500;
+}
+/* ----------bottom banner section---------- */
+.bottom-banner-section {
+  padding: 0 230px;
+  display: flex;
+  margin-bottom: 130px;
+}
+.bottom-banner-container {
+  width: 100%;
+  border-radius: 8px;
+  height: 300px;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),url(../images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 64px;
+
+
+}
+.bottom-banner-container h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+
 }
