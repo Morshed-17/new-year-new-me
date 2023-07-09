@@ -55,7 +55,7 @@ main {
 /* -------------failure section------------ */
 
 .failure-section {
-    margin: 140px 0px ;
+  margin: 140px 0px;
 }
 .failure-section-container {
   display: flex;
@@ -64,6 +64,7 @@ main {
   align-items: center;
 }
 
+.section-title,
 .failure-section h2 {
   color: #151414;
   font-size: 40px;
@@ -71,16 +72,15 @@ main {
   margin-bottom: 24px;
 }
 .failure-section p {
-  color:#444343;
+  color: #444343;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   width: 416px;
   margin-bottom: 16px;
-
 }
 .failure-section li {
-  color:#444343;
+  color: #444343;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -88,11 +88,32 @@ main {
   margin-bottom: 8px;
   list-style: none;
   align-items: center;
-
 }
 .failure-section li img {
-    width: 20px;
-    margin-right: 10px;
-    position: relative;
-    top: 5px;
+  width: 20px;
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+}
+/* --------- Plans section-------- */
+.plans-section {
+  margin: 0 230px 130px 230px;
+  text-align: center;
+}
+.plans-section-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.plans-section-container h3 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.plans-section-container h4 {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
 }
