@@ -52,3 +52,47 @@ main {
   width: 494px;
   margin-bottom: 32px;
 }
+/* -------------failure section------------ */
+
+.failure-section {
+    margin: 140px 0px ;
+}
+.failure-section-container {
+  display: flex;
+  justify-content: center;
+  gap: 105px;
+  align-items: center;
+}
+
+.failure-section h2 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.failure-section p {
+  color:#444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 416px;
+  margin-bottom: 16px;
+
+}
+.failure-section li {
+  color:#444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 416px;
+  margin-bottom: 8px;
+  list-style: none;
+  align-items: center;
+
+}
+.failure-section li img {
+    width: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
